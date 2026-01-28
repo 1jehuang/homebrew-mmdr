@@ -7,17 +7,17 @@ class Mmdr < Formula
   on_macos do
     on_intel do
       url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.1.2/mmdr-x86_64-apple-darwin.tar.gz"
-      sha256 "8fa3f277b8e5f8551e234d92785df52b6afce5453ffae98d65d40b087f3a8dc1"
+      sha256 "ffd7f08a21575d3537b8356126f535fc3ba68b78c62c355af2cf6f13c2fea198"
     end
     on_arm do
       url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.1.2/mmdr-aarch64-apple-darwin.tar.gz"
-      sha256 "5bbe45f5f197adfc9911703644a8e2d70548abe27bbf29b1ef94218038346f88"
+      sha256 "8a5f325967feb00e29a4032c4932c07a5cf0bd02af02856818117eb6c0f3e2f6"
     end
   end
 
   on_linux do
     url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.1.2/mmdr-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "d0a4d8fed5438dcdda1c72d3612e2dab838c6afa6da4c7586d255e57ec5363dc"
+    sha256 "d38ce8822ee9a158d0c1266e9197996528bf68549bbe2cd18d59765f74547004"
   end
 
   def install
