@@ -1,23 +1,23 @@
 class Mmdr < Formula
-  desc "Fast Mermaid diagram renderer in pure Rust (100-1400x faster than mermaid-cli)"
+  desc "Fast Mermaid diagram renderer in pure Rust - 23 diagram types, 100-1400x faster than mermaid-cli"
   homepage "https://github.com/1jehuang/mermaid-rs-renderer"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.2.0/mmdr-x86_64-apple-darwin.tar.gz"
-      sha256 "a9d9132d96b05bc791aeacdb560e1a0d130a09b33c0c71b860be84d3556a1dfe"
+      url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.2.1/mmdr-x86_64-apple-darwin.tar.gz"
+      sha256 "1e06ebdf401e00c8be509f6bf3ce6964c6592b8bef6b2b06c7fd4b491468ddb1"
     end
     on_arm do
-      url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.2.0/mmdr-aarch64-apple-darwin.tar.gz"
-      sha256 "ea35ed6fcf4f69d47a6f6be70a0be86bd3c16880494032703f0d78496dc2e982"
+      url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.2.1/mmdr-aarch64-apple-darwin.tar.gz"
+      sha256 "f10fd28395c1705f742994d63c1b193dc212e5f5d72f11b03e6cc4c50e46163c"
     end
   end
 
   on_linux do
-    url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.2.0/mmdr-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "a4bdd20f95150a8953463ea6d0dd5b77df0a25d37150781ebf342e252347d2a5"
+    url "https://github.com/1jehuang/mermaid-rs-renderer/releases/download/v0.2.1/mmdr-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "84ce1c77f0969a9665b355656048216fe1b2d712f44ae168a83f6d9acb260292"
   end
 
   def install
